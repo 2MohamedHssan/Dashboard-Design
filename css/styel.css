@@ -24,8 +24,11 @@ aside{
     background-color: #fff;
     box-shadow: 0 0 10px #ddd;
     height: 100vh;
-    z-index: 10;  
+    z-index: 10; 
+    flex: 1;
+    position: sticky; 
     padding: 20px;
+    top: 0;
 }
 aside>h3{
     width: fit-content;
@@ -1912,7 +1915,7 @@ background-color: var(--blue-alt-color);
     aside h3{
         margin: 0;
         padding: 0;
-        font-size: 14px;
+        font-size: 12px;
     }
     aside h3::after,
     aside h3::before{
